@@ -5,3 +5,21 @@ gh-dependents
 
 This file will become your README and also the index of your
 documentation.
+
+## Usage Guide
+
+To get a JSON of the dependency information on a project perform:
+
+(Note this will take a minute or two to run depending on how many
+dependencies you have)
+
+``` python
+from gh_dependents import get_data
+data = get_data("username/repo")
+```
+
+``` python
+data.keys()
+```
+
+    dict_keys(['all_public_dependent_repos', 'total_dependents_number', 'public_dependents_number', 'private_dependents_number', 'public_dependents_stars', 'packages'])
