@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "github-dependents"
+  site-url: "https://muellerzr.github.io/github-dependents/"
+  description: "A small repackaging of github-dependents-info"
+  repo-branch: master
+  repo-url: "https://github.com/muellerzr/github-dependents/"
